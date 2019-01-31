@@ -34,7 +34,7 @@ public class Main {
                     surname = sc.next();
                     do {
                         System.out.println("Enter PESEL: ");
-                        pesel = sc.nextLine();
+                        pesel = sc.next();
                     }
                     while (!Pesel.sprawdz(pesel));
 
